@@ -26,12 +26,27 @@ jobs:
           python-version: '3.12'
       - name: Gerar SVG
         run: python scripts/gerar_terminal.py
-      - name: Publicar terminal atualizado
+      - name: Atualizar versao da imagem no README
         run: |
-          if ! git diff --quiet -- terminal.svg; then
+          python - <<'PY'
+          from pathlib import Path
+          import hashlib
+          import re
+          svg = Path("terminal.svg").read_bytes()
+          version = hashlib.sha256(svg).hexdigest()[:12]
+          readme = Path("README.md")
+          original = readme.read_text(encoding="utf-8")
+          updated = re.sub(r'\./terminal\.svg(?:\?v=[a-f0-9]+)?', f'./terminal.svg?v={version}', original)
+          if updated == original and './terminal.svg' not in original:
+              raise SystemExit("Referencia do terminal nao encontrada no README.md")
+          readme.write_text(updated, encoding="utf-8")
+          PY
+      - name: Publicar SVG e README atualizados
+        run: |
+          if ! git diff --quiet -- terminal.svg README.md; then
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git add terminal.svg
-            git commit -m "chore: sync terminal.svg with frases.txt"
+            git add terminal.svg README.md
+            git commit -m "chore: sync terminal and refresh image cache"
             git push
           fi
