@@ -1,0 +1,35 @@
+name: Gerar terminal GIF
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - frases.txt
+      - scripts/gerar_gif.py
+      - .github/workflows/gerar-terminal-gif.yml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  gerar-gif:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Instalar Pillow
+        run: python -m pip install 'Pillow>=11,<13'
+      - name: Gerar GIF e atualizar README
+        run: python scripts/gerar_gif.py
+      - name: Publicar GIF
+        run: |
+          git add terminal.gif README.md
+          if ! git diff --cached --quiet; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git commit -m "chore: regenerate terminal GIF from frases.txt"
+            git push
+          fi
