@@ -16,8 +16,6 @@
     31% { width: 0px; }
     33.3333%, 100% { width: 0px; }
   }
-  .cursor { animation: blink 1s steps(1,end) infinite; }
-  @keyframes blink { 50% { opacity: 0; } }
 </style>
 <defs>
   <clipPath id="clip1"><rect class="typing" width="0" height="25"/></clipPath>
@@ -43,5 +41,4 @@
   <text x="0" y="19" font-family="monospace" font-size="15" fill="#e6edf3">frase 3 sla</text>
 </g>
 <!-- ===== FIM DAS FRASES ===== -->
-<rect class="cursor" x="211" y="90" width="8" height="18" fill="#e6edf3"/>
 </svg>
