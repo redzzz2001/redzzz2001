@@ -4,7 +4,7 @@
 
 <br><br>
 
-<img src="./terminal.svg?v=8eb7457a488d" width="580" alt="Terminal animado redzzz"/>
+<img src="./terminal.svg?v=f949c9a22b33" width="580" alt="Terminal animado redzzz"/>
 
 <br><br>
 
