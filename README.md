@@ -5,32 +5,37 @@
 
 <br>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=17&duration=2800&pause=1400&color=A1A1AA&center=true&vCenter=true&width=540&height=45&lines=Esperando+o+Codex+resetar...;Limite+de+uso+atingido.;Faltam+5+horas+pro+reset.;Aguardando+novos+tokens...;HelloWorld(%22print%22)" alt="Status animado"/>
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=17&duration=2800&pause=1300&color=A1A1AA&center=true&vCenter=true&width=540&height=45&lines=Esperando+o+Codex+resetar...;Mais+um+prompt+e+termina.;O+Claude+ja+gastou+o+contexto.;Nao+era+pra+refatorar+tudo.;HelloWorld(%22print%22);Enquanto+isso%2C+vou+tomar+um+cafe." alt="Frases animadas"/>
 
 <br><br>
 
-<img src="./golira.webp" width="340" alt="Gorila esperando o Codex resetar"/>
+<img src="./golira.webp" width="340" alt="Gorila programador"/>
 
 <br><br>
 
 <h3>sobre mim</h3>
 
 <p>
-  Desenvolvedor web.
+  Desenvolvedor web focado em criar interfaces
   <br>
-  Criando interfaces, experimentando ideias
+  e transformar ideias em projetos reais.
   <br>
-  e esperando o limite do Codex resetar.
+  Uso IA no desenvolvimento, mas ainda preciso
+  <br>
+  entender o que ela resolveu fazer.
 </p>
 
 <br>
 
-<h3>status atual</h3>
-
 <pre>
-codex: limite atingido
-proximo reset: em breve (confia)
-produtividade: aguardando...
+$ codex
+limite atingido
+
+$ claude
+contexto restante: 2%
+
+$ git status
+modified: tudo
 </pre>
 
 <br>
@@ -41,7 +46,7 @@ produtividade: aguardando...
 
 <br><br>
 
-<sub>README atualizado enquanto o Codex nao reseta.</sub>
+<sub>ultimo commit: era so uma alteracao pequena</sub>
 
 <br>
 
