@@ -17,10 +17,6 @@
 
 <br>
 
-<a href="mailto:redxzz2001@gmail.com">
-<img src="https://img.shields.io/badge/contato-27272A?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
-</a>
-
 <br><br>
 
 <br>
