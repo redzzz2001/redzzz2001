@@ -1,3 +1,4 @@
 esperando o Codex resetar...
 hello world("print")
 frase 3 sla
+frase 4 sla
