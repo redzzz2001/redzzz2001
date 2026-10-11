@@ -13,30 +13,8 @@
 
 <br><br>
 
-<h3>sobre mim</h3>
-
-<p>
-  Desenvolvedor web focado em criar interfaces
-  <br>
-  e transformar ideias em projetos reais.
-  <br>
-  Uso IA no desenvolvimento, mas ainda preciso
-  <br>
-  entender o que ela resolveu fazer.
-</p>
-
 <br>
-
-<pre>
-$ codex
-limite atingido
-
-$ claude
-contexto restante: 2%
-
-$ git status
-modified: tudo
-</pre>
+`
 
 <br>
 
@@ -45,8 +23,6 @@ modified: tudo
 </a>
 
 <br><br>
-
-<sub>ultimo commit: era so uma alteracao pequena</sub>
 
 <br>
 
