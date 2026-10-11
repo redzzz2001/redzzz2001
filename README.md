@@ -1,44 +1,51 @@
+
 <div align="center">
 
-<br>
-
-# redzzz<span style="color:#888">.</span>
-
-**web developer & digital creator**
-
-<sub>Transformando ideias em experiências digitais.</sub>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,50:273449,100:64748B&height=200&section=header&text=redzzz.&fontSize=65&fontColor=FFFFFF&fontAlignY=38&animation=fadeIn&desc=developer%20%2F%20digital%20creator&descAlignY=60&descSize=16"/>
 
 <br>
 
-[![Portfolio](https://img.shields.io/badge/PORTFÓLIO-18181b?style=for-the-badge&logo=vercel&logoColor=white)](https://routstudios.vercel.app)
-[![Email](https://img.shields.io/badge/CONTATO-18181b?style=for-the-badge&logo=gmail&logoColor=white)](mailto:redxzz2001@gmail.com)
-
-<br>
-
----
-
-<br>
-
-### Olá, eu sou o redzzz 👋
-
-Desenvolvo para a web e gosto de criar interfaces que combinam  
-**simplicidade, funcionalidade e atenção aos detalhes.**
-
-<br>
-
-<sub>TECNOLOGIAS</sub>
+<a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=19&duration=3000&pause=1200&color=94A3B8&center=true&vCenter=true&repeat=true&width=500&height=45&lines=Hello%2C+world!+%F0%9F%91%8B;I+love+building+things.;Design.+Code.+Create.;Welcome+to+my+space." alt="Typing SVG"/>
+</a>
 
 <br><br>
 
-<img alt="HTML5" height="34" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" />&nbsp;&nbsp;&nbsp;
-<img alt="JavaScript" height="34" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" />
+### ✦ Sobre mim
 
-<br><br><br>
+Desenvolvedor apaixonado por criar experiências digitais.
 
----
+Gosto de transformar ideias em interfaces modernas,  
+explorar novas tecnologias e construir coisas interessantes.
 
-<sub>feito com curiosidade, café e algumas linhas de código.</sub>
+<br>
+
+### ✦ Tecnologias
+
+<img src="https://skillicons.dev/icons?i=html,css,js,python,git,github,vscode&theme=dark" alt="Tecnologias"/>
 
 <br><br>
+
+### ✦ Vamos nos conectar?
+
+<a href="https://routstudios.vercel.app">
+  <img src="https://img.shields.io/badge/Website-1E293B?style=for-the-badge&logo=vercel&logoColor=white" alt="Website"/>
+</a>
+&nbsp;
+<a href="mailto:redxzz2001@gmail.com">
+  <img src="https://img.shields.io/badge/Email-1E293B?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
+</a>
+&nbsp;
+<a href="https://github.com/redzzz2001">
+  <img src="https://img.shields.io/badge/GitHub-1E293B?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+</a>
+
+<br><br>
+
+<sub>✦ DESIGN &nbsp;·&nbsp; CODE &nbsp;·&nbsp; CREATE ✦</sub>
+
+<br><br>
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:64748B,50:273449,100:0D1117&height=110&section=footer"/>
 
 </div>
