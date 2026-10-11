@@ -9,7 +9,7 @@
 
 <br><br>
 
-<img src="./gorila.png" width="360" alt="HelloWorld print gorilla meme"/>
+<img src="./golira.webp" width="360" alt='HelloWorld("print") 🦍'/>
 
 <br>
 
