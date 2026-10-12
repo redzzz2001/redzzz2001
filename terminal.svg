@@ -10,7 +10,7 @@
 <circle cx="43" cy="22" r="6" fill="#febc2e"/>
 <circle cx="64" cy="22" r="6" fill="#28c840"/>
 <text x="290" y="27" text-anchor="middle" font-family="monospace" font-size="13" fill="#8b949e">redzzz@terminal</text>
-<text x="22" y="104" font-family="monospace" font-size="15" fill="#e6edf3"><tspan fill="#7ee787">redzzz@PC-do-nick</tspan><tspan>:~$ </tspan></text>
+<text x="22" y="104" font-family="monospace" font-size="15" fill="#e6edf3"><tspan fill="#7ee787">redzzz@PC-do-redz</tspan><tspan>:~$ </tspan></text>
 <g transform="translate(211 85)" font-family="monospace" font-size="15" fill="#e6edf3"><text x="0" y="19" clip-path="url(#clip0)">hello world("print")</text>
 <text x="0" y="19" clip-path="url(#clip1)">to sem mais ideia de frase</text>
 <text x="0" y="19" clip-path="url(#clip2)">manda umas ideia no meu email</text>
