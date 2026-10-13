@@ -1,4 +1,4 @@
-<img src="./assets/redzzz-glitch.svg?v=2" width="100%" alt="REDZZZ com glitch sutil"/>
+<img src="./assets/redzzz-title.svg" width="100%" alt="redzzz com glitch sutil"/>
 
 <br><br>
 
