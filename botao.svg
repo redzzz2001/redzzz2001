@@ -1,0 +1,27 @@
+
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="222" height="42"
+     viewBox="0 0 222 42">
+
+  <!-- Sombra preta retrô -->
+  <rect x="4" y="4" width="218" height="38"
+        fill="#211918"/>
+
+  <!-- Fundo vermelho -->
+  <rect x="0.75" y="0.75"
+        width="217" height="37"
+        fill="#A62626"
+        stroke="#211918"
+        stroke-width="1.5"/>
+
+  <!-- Texto -->
+  <text x="109" y="20"
+        fill="#FFFFFF"
+        font-family="'Courier New', monospace"
+        font-size="13"
+        font-weight="bold"
+        text-anchor="middle"
+        dominant-baseline="middle">
+    VISITAR PORTFÓLIO ↗
+  </text>
+</svg>
