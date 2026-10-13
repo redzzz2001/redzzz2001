@@ -1,33 +1,22 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="150" viewBox="0 0 900 150" role="img" aria-labelledby="title desc">
-  <title id="title">REDZZZ</title>
-  <desc id="desc">Texto REDZZZ em estilo terminal com uma piscada digital breve</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="72" viewBox="0 0 900 72" role="img" aria-labelledby="title desc">
+  <title id="title">redzzz</title>
+  <desc id="desc">Nome redzzz discreto com uma breve piscada digital</desc>
   <defs>
-    <text id="word" x="450" y="101" text-anchor="middle" font-family="Consolas,'Courier New',monospace" font-size="80" font-weight="700" letter-spacing="6">REDZZZ</text>
-    <clipPath id="top"><rect x="120" y="29" width="660" height="34"/></clipPath>
-    <clipPath id="middle"><rect x="120" y="63" width="660" height="27"/></clipPath>
-    <clipPath id="bottom"><rect x="120" y="90" width="660" height="28"/></clipPath>
+    <text id="word" x="450" y="47" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="30" font-weight="700" letter-spacing="-.6">redzzz</text>
   </defs>
 
   <g>
     <use href="#word" fill="#f0f6fc"/>
-    <animate attributeName="opacity" values="1;1;.2;1;1" keyTimes="0;.82;.825;.845;1" dur="5.2s" repeatCount="indefinite" calcMode="discrete"/>
+    <animate attributeName="opacity" values="1;1;.3;1;1" keyTimes="0;.88;.885;.9;1" dur="4.8s" repeatCount="indefinite" calcMode="discrete"/>
   </g>
 
   <g opacity="0">
-    <use href="#word" fill="#ff173d" transform="translate(6 0)"/>
-    <animate attributeName="opacity" values="0;0;.72;0;0" keyTimes="0;.82;.825;.845;1" dur="5.2s" repeatCount="indefinite" calcMode="discrete"/>
+    <use href="#word" fill="#ff4967" transform="translate(2 0)"/>
+    <animate attributeName="opacity" values="0;0;.55;0;0" keyTimes="0;.88;.885;.9;1" dur="4.8s" repeatCount="indefinite" calcMode="discrete"/>
   </g>
+
   <g opacity="0">
-    <use href="#word" fill="#58a6ff" transform="translate(-6 0)"/>
-    <animate attributeName="opacity" values="0;0;.55;0;0" keyTimes="0;.82;.825;.845;1" dur="5.2s" repeatCount="indefinite" calcMode="discrete"/>
+    <use href="#word" fill="#58a6ff" transform="translate(-2 0)"/>
+    <animate attributeName="opacity" values="0;0;.4;0;0" keyTimes="0;.88;.885;.9;1" dur="4.8s" repeatCount="indefinite" calcMode="discrete"/>
   </g>
-
-  <g fill="#fff" opacity="0">
-    <g clip-path="url(#top)"><use href="#word"/><animateTransform attributeName="transform" type="translate" values="0 0;0 0;12 0;-5 0;0 0;0 0" keyTimes="0;.82;.825;.838;.845;1" dur="5.2s" repeatCount="indefinite" calcMode="discrete"/></g>
-    <g clip-path="url(#middle)"><use href="#word"/><animateTransform attributeName="transform" type="translate" values="0 0;0 0;-10 0;7 0;0 0;0 0" keyTimes="0;.82;.825;.838;.845;1" dur="5.2s" repeatCount="indefinite" calcMode="discrete"/></g>
-    <g clip-path="url(#bottom)"><use href="#word"/><animateTransform attributeName="transform" type="translate" values="0 0;0 0;7 0;-9 0;0 0;0 0" keyTimes="0;.82;.825;.838;.845;1" dur="5.2s" repeatCount="indefinite" calcMode="discrete"/></g>
-    <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;.82;.825;.845;1" dur="5.2s" repeatCount="indefinite" calcMode="discrete"/>
-  </g>
-
-  <path d="M275 122H625" stroke="#ff173d" stroke-opacity=".32" stroke-width="2"/>
 </svg>

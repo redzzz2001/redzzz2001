@@ -1,47 +1,8 @@
-
-<svg xmlns="http://www.w3.org/2000/svg" width="560" height="116" viewBox="0 0 560 116" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="222" height="42" viewBox="0 0 222 42" role="img" aria-labelledby="title">
   <title id="title">Visitar portfólio</title>
-  <desc id="desc">Botão vermelho animado para abrir o site redzzz</desc>
 
-  <defs>
-    <linearGradient id="bg" x1="0" x2="1">
-      <stop stop-color="#0d1117"/>
-      <stop offset=".5" stop-color="#161b22"/>
-      <stop offset="1" stop-color="#0d1117"/>
-    </linearGradient>
-    <linearGradient id="sweep" x1="0" x2="1">
-      <stop stop-color="#ff173d" stop-opacity="0"/>
-      <stop offset=".5" stop-color="#ff173d" stop-opacity=".24"/>
-      <stop offset="1" stop-color="#ff173d" stop-opacity="0"/>
-    </linearGradient>
-    <filter id="glow" x="-30%" y="-60%" width="160%" height="220%">
-      <feGaussianBlur stdDeviation="4" result="blur"/>
-      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
-    <clipPath id="buttonClip"><rect x="5" y="5" width="550" height="106" rx="22"/></clipPath>
-    <text id="label" x="280" y="66" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="800" letter-spacing="3">VISITAR PORTFÓLIO</text>
-  </defs>
+  <rect x="4" y="4" width="218" height="38" fill="#211918"/>
+  <rect x="0.75" y="0.75" width="217" height="37" fill="#A62626" stroke="#211918" stroke-width="1.5"/>
 
-  <rect x="5" y="5" width="550" height="106" rx="22" fill="url(#bg)" stroke="#30363d" stroke-width="2"/>
-  <rect x="7" y="7" width="546" height="102" rx="20" fill="none" stroke="#ff173d" stroke-width="2" stroke-dasharray="90 460" filter="url(#glow)">
-    <animate attributeName="stroke-dashoffset" values="0;-550" dur="3.4s" repeatCount="indefinite"/>
-  </rect>
-
-  <g clip-path="url(#buttonClip)">
-    <rect x="-180" y="5" width="170" height="106" fill="url(#sweep)" transform="skewX(-16)">
-      <animate attributeName="x" values="-180;700" dur="3.4s" repeatCount="indefinite"/>
-    </rect>
-  </g>
-
-  <circle cx="46" cy="58" r="5" fill="#ff173d" filter="url(#glow)">
-    <animate attributeName="opacity" values=".35;1;.35" dur="1.7s" repeatCount="indefinite"/>
-  </circle>
-  <use href="#label" fill="#f0f6fc"/>
-  <g opacity="0">
-    <use href="#label" fill="#ff173d" transform="translate(4 0)"/>
-    <animate attributeName="opacity" values="0;0;.65;0;0" keyTimes="0;.76;.79;.83;1" dur="4.6s" repeatCount="indefinite"/>
-  </g>
-  <path d="M500 48l10 10-10 10M486 58h23" fill="none" stroke="#ff173d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-    <animate attributeName="transform" values="translate(0 0);translate(5 0);translate(0 0)" dur="1.7s" repeatCount="indefinite"/>
-  </path>
+  <text x="109" y="20" fill="#FFFFFF" font-family="'Courier New',monospace" font-size="13" font-weight="bold" text-anchor="middle" dominant-baseline="middle">VISITAR PORTFÓLIO ↗</text>
 </svg>

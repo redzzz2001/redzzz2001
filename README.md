@@ -15,6 +15,6 @@
 
 <p align="center">
   <a href="https://redzzz.vercel.app/">
-    <img src="./botao.svg" alt="VISITAR PORTFÓLIO" width="280">
+    <img src="./botao.svg" alt="VISITAR PORTFÓLIO" width="222">
   </a>
 </p>
