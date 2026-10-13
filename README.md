@@ -17,8 +17,10 @@
 
 <br><br>
 
-<p align="center">
-  <img src="https://githubusercontent.com" alt="Snake Game" />
+<br />
+<p align="left">
+  <img src="https://githubusercontent.com" width="100%" />
 </p>
+
 
 </div>
