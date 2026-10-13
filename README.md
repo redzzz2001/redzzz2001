@@ -1,11 +1,4 @@
-<pre style="background: transparent; border: none; padding: 0; margin: 0; font-family: monospace;">
-    ██████╗ ███████╗██████╗ ███████╗███████╗███████╗
-    ██╔══██╗██╔════╝██╔══██╗╚══███╔╝╚══███╔╝╚══███╔╝
-    ██████╔╝█████╗  ██║  ██║   ███╔╝   ███╔╝   ███╔╝ 
-    ██╔══██╗██╔══╝  ██║  ██║  ███╔╝   ███╔╝   ███╔╝  
-    ██║  ██║███████╗██████╔╝ ███████╗███████╗███████╗
-    ╚═╝  ╚═╝╚══════╝╚═════╝  ╚══════╝╚══════╝╚══════╝
-</pre>
+<img src="./assets/redzzz-glitch.svg" width="100%" alt="REDZZZ com glitch sutil"/>
 
 <br><br>
 
@@ -13,7 +6,7 @@
 
 <br><br>
 
-<img src="./golira.webp" width="340" alt="Gorila programador"/>
+<img src="./assets/gorilla-rounded.svg" width="340" alt="Gorila programador"/>
 
 <br><br>
 

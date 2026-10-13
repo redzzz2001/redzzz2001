@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="150" viewBox="0 0 900 150" role="img" aria-labelledby="title desc">
+  <title id="title">REDZZZ</title>
+  <desc id="desc">Logo ASCII REDZZZ com glitch vermelho e azul sutil</desc>
+  <defs>
+    <linearGradient id="scan" x2="1"><stop stop-color="#ff173d" stop-opacity="0"/><stop offset=".5" stop-color="#ff173d" stop-opacity=".16"/><stop offset="1" stop-color="#ff173d" stop-opacity="0"/></linearGradient>
+    <filter id="soft"><feGaussianBlur stdDeviation="1.5"/></filter>
+  </defs>
+
+  <g font-family="DejaVu Sans Mono,Consolas,monospace" font-size="17" font-weight="700" xml:space="preserve">
+    <defs>
+    <g id="ascii">
+      <text x="112" y="30">██████╗ ███████╗██████╗ ███████╗███████╗███████╗</text>
+      <text x="112" y="49">██╔══██╗██╔════╝██╔══██╗╚══███╔╝╚══███╔╝╚══███╔╝</text>
+      <text x="112" y="68">██████╔╝█████╗  ██║  ██║   ███╔╝   ███╔╝   ███╔╝</text>
+      <text x="112" y="87">██╔══██╗██╔══╝  ██║  ██║  ███╔╝   ███╔╝   ███╔╝</text>
+      <text x="112" y="106">██║  ██║███████╗██████╔╝ ███████╗███████╗███████╗</text>
+      <text x="112" y="125">╚═╝  ╚═╝╚══════╝╚═════╝  ╚══════╝╚══════╝╚══════╝</text>
+    </g>
+    </defs>
+
+    <g fill="#f0f6fc"><use href="#ascii"/></g>
+
+    <g fill="#ff173d" opacity="0" transform="translate(3 0)" filter="url(#soft)">
+      <use href="#ascii"/>
+      <animate attributeName="opacity" values="0;0;.32;0;0;.18;0;0" keyTimes="0;.7;.715;.73;.87;.885;.9;1" dur="6s" repeatCount="indefinite"/>
+    </g>
+    <g fill="#58a6ff" opacity="0" transform="translate(-3 0)" filter="url(#soft)">
+      <use href="#ascii"/>
+      <animate attributeName="opacity" values="0;0;.24;0;0;.14;0;0" keyTimes="0;.7;.715;.73;.87;.885;.9;1" dur="6s" repeatCount="indefinite"/>
+    </g>
+  </g>
+
+  <rect x="70" y="-8" width="760" height="7" fill="url(#scan)">
+    <animate attributeName="y" values="-8;150" dur="5s" repeatCount="indefinite"/>
+  </rect>
+  <path d="M94 137H806" stroke="#ff173d" stroke-opacity=".18" stroke-width="1" stroke-dasharray="2 12">
+    <animate attributeName="stroke-dashoffset" from="0" to="-56" dur="3s" repeatCount="indefinite"/>
+  </path>
+</svg>
