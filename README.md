@@ -17,10 +17,8 @@
 
 <br><br>
 
-<p align="left">
-  <img src="https://komarev.com" alt="Contador de Visitas" />
+<p align="center">
+  <img src="https://githubusercontent.com" alt="Snake Game" />
 </p>
-
-
 
 </div>
