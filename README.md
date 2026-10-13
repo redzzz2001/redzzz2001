@@ -12,17 +12,10 @@
 
 <br><br>
 
-<a href="https://vercel.app" target="_blank" style="text-decoration: none;">
-  <table bgcolor="#A62626" cellpadding="12" cellspacing="0" border="0" style="border-collapse: collapse; border: none; border-radius: 0px;">
-    <tr>
-      <td valign="middle" style="padding: 10px 24px; border: none; border-radius: 0px;">
-        <font color="#FFFFFF" face="sans-serif" size="3">
-          <b>VISITAR MEU PORTFÓLIO</b>
-        </font>
-      </td>
-    </tr>
-  </table>
+<a href="https://vercel.app" target="_blank">
+  <img src="data:image/svg+xml;utf8,<svg xmlns='http://w3.org' width='180' height='45'><rect width='180' height='45' fill='%23A62626'/><text x='50%' y='55%' dominant-baseline='middle' text-anchor='middle' font-family='sans-serif' font-size='13' font-weight='bold' fill='%23FFFFFF'>VISITAR PORTFÓLIO</text></svg>" alt="Visitar Portfólio">
 </a>
+
 
 
 
