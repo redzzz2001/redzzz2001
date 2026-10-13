@@ -1,6 +1,9 @@
-<div align="center">
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:09090B,50:18181B,100:3F3F46&height=170&section=header&text=redzzz.&fontSize=65&fontColor=FFFFFF&fontAlignY=38&animation=fadeIn&desc=desenvolvedor%20web&descAlignY=60&descSize=16" alt="redzzz"/>
+               _             
+  _ __ ___  __| |____________
+ | '__/ _ \/ _` |_  /_  /_  /
+ | | |  __/ (_| |/ / / / / / 
+ |_|  \___|\__,_/___/___/___|
+                             
 
 <br><br>
 
