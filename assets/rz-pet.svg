@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="210" viewBox="0 0 900 210" role="img" aria-labelledby="title desc">
+  <title id="title">RZ-bot walking</title>
+  <desc id="desc">Mascote robotico animado caminhando pelo perfil</desc>
+  <defs>
+    <linearGradient id="floor" x2="1"><stop stop-color="#ff173d" stop-opacity="0"/><stop offset=".5" stop-color="#ff173d"/><stop offset="1" stop-color="#ff173d" stop-opacity="0"/></linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <pattern id="ticks" width="36" height="10" patternUnits="userSpaceOnUse"><path d="M0 0v6" stroke="#ff173d" stroke-opacity=".22"/></pattern>
+  </defs>
+  <rect width="900" height="210" rx="16" fill="#0d1117"/>
+  <rect x="1" y="1" width="898" height="208" rx="15" fill="none" stroke="#30363d" stroke-width="2"/>
+  <text x="25" y="31" fill="#ff3655" font-family="monospace" font-size="12">// RZ-BOT PATROL</text>
+  <text x="875" y="31" text-anchor="end" fill="#484f58" font-family="monospace" font-size="11">AUTONOMOUS MODE</text>
+  <path d="M30 174H870" stroke="url(#floor)" stroke-width="2"/>
+  <rect x="30" y="177" width="840" height="10" fill="url(#ticks)"/>
+
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="25 0;735 0;735 0;25 0;25 0" keyTimes="0;.43;.5;.93;1" dur="14s" repeatCount="indefinite"/>
+    <g transform="translate(0 55)">
+      <g opacity=".8">
+        <ellipse cx="69" cy="126" rx="46" ry="7" fill="#ff173d" fill-opacity=".16"><animate attributeName="rx" values="38;48;38" dur=".5s" repeatCount="indefinite"/></ellipse>
+      </g>
+      <g id="body">
+        <rect x="20" y="18" width="98" height="84" rx="24" fill="#9f1027" stroke="#ff3655" stroke-width="2" filter="url(#glow)"/>
+        <path d="M42 46v33M42 46h16q19 0 19 16v17M77 62l20-16v33H75" fill="none" stroke="#fff" stroke-width="9" stroke-linejoin="miter"/>
+        <rect x="31" y="6" width="76" height="18" rx="9" fill="#161b22" stroke="#ff173d"/>
+        <circle cx="48" cy="15" r="4" fill="#3fb950"><animate attributeName="opacity" values="1;1;.1;1;1" keyTimes="0;.42;.45;.48;1" dur="4s" repeatCount="indefinite"/></circle>
+        <circle cx="90" cy="15" r="4" fill="#3fb950"><animate attributeName="opacity" values="1;1;.1;1;1" keyTimes="0;.42;.45;.48;1" dur="4s" repeatCount="indefinite"/></circle>
+        <path d="M56 91q13 10 26 0" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round"/>
+      </g>
+      <g stroke="#ff3655" stroke-width="8" stroke-linecap="round">
+        <path d="M40 99l-9 25 23 3"><animate attributeName="d" values="M40 99l-9 25 23 3;M40 99l8 25-19 3;M40 99l-9 25 23 3" dur=".5s" repeatCount="indefinite"/></path>
+        <path d="M96 99l10 25-22 3"><animate attributeName="d" values="M96 99l10 25-22 3;M96 99l-8 25 19 3;M96 99l10 25-22 3" dur=".5s" repeatCount="indefinite"/></path>
+        <path d="M20 51L4 68"><animateTransform attributeName="transform" type="rotate" values="-8 20 51;14 20 51;-8 20 51" dur=".8s" repeatCount="indefinite"/></path>
+        <path d="M118 51l17-18"><animateTransform attributeName="transform" type="rotate" values="14 118 51;-12 118 51;14 118 51" dur=".8s" repeatCount="indefinite"/></path>
+      </g>
+      <g transform="translate(118 2)" font-family="monospace">
+        <path d="M0 45l14-10h150a12 12 0 0 0 12-12v-27a12 12 0 0 0-12-12H23A12 12 0 0 0 11-4v27z" fill="#161b22" stroke="#ff3655"/>
+        <text x="27" y="14" fill="#f0f6fc" font-size="12">building cool stuff...</text>
+        <circle cx="150" cy="13" r="3" fill="#ff3655"><animate attributeName="opacity" values="1;.1;1" dur=".8s" repeatCount="indefinite"/></circle>
+      </g>
+    </g>
+  </g>
+  <g fill="#ff173d" opacity="0">
+    <circle cx="100" cy="179" r="3"><animate attributeName="opacity" values="0;.55;0" dur="2s" begin="0s" repeatCount="indefinite"/></circle>
+    <circle cx="260" cy="179" r="3"><animate attributeName="opacity" values="0;.55;0" dur="2s" begin=".4s" repeatCount="indefinite"/></circle>
+    <circle cx="420" cy="179" r="3"><animate attributeName="opacity" values="0;.55;0" dur="2s" begin=".8s" repeatCount="indefinite"/></circle>
+    <circle cx="580" cy="179" r="3"><animate attributeName="opacity" values="0;.55;0" dur="2s" begin="1.2s" repeatCount="indefinite"/></circle>
+    <circle cx="740" cy="179" r="3"><animate attributeName="opacity" values="0;.55;0" dur="2s" begin="1.6s" repeatCount="indefinite"/></circle>
+  </g>
+</svg>

@@ -1,3 +1,7 @@
+<div align="center">
+
+<img src="./rz-logo.png" width="150" alt="Logo RZ" />
+
 <pre style="background: transparent; border: none; padding: 0; margin: 0; font-family: monospace;">
     ██████╗ ███████╗██████╗ ███████╗███████╗███████╗
     ██╔══██╗██╔════╝██╔══██╗╚══███╔╝╚══███╔╝╚══███╔╝
@@ -7,15 +11,12 @@
     ╚═╝  ╚═╝╚══════╝╚═════╝  ╚══════╝╚══════╝╚══════╝
 </pre>
 
-<br><br>
+<br>
 
-<img src="./terminal.svg" width="580" alt="Terminal animado redzzz"/>
+<img src="./terminal.svg" width="64%" alt="Terminal animado redzzz"/>
+<img src="./golira.webp" width="30%" alt="Gorila programador"/>
 
-<br><br>
-
-<img src="./golira.webp" width="340" alt="Gorila programador"/>
-
-<br><br>
+<br>
 
 
 
@@ -28,27 +29,15 @@
 </p>
 
 <p align="center">
+  <img src="./assets/rz-pet.svg" width="100%" alt="RZ-bot andando pelo perfil" />
+</p>
+
+<p align="center">
   <img src="./assets/skills-orbit.svg" width="100%" alt="Tecnologias em orbita" />
 </p>
 
 <p align="center">
-  <img src="./assets/projects-title.svg" width="100%" alt="Projetos selecionados" />
-</p>
-
-<p align="center">
-  <a href="https://github.com/redzzz2001/Zombeteiro-Extreme"><img src="./assets/project-zombeteiro.svg" width="49%" alt="Zombeteiro Extreme" /></a>
-  <a href="https://github.com/redzzz2001/FluentGo"><img src="./assets/project-fluentgo.svg" width="49%" alt="FluentGo" /></a>
-</p>
-
-<p align="center">
-  <a href="https://github.com/redzzz2001/filemagic"><img src="./assets/project-filemagic.svg" width="49%" alt="FileMagic" /></a>
-  <a href="https://github.com/redzzz2001/ClassBot"><img src="./assets/project-classbot.svg" width="49%" alt="ClassBot" /></a>
-</p>
-
-<p align="center">
-  <a href="https://github.com/redzzz2001?tab=repositories">
-    <img src="./assets/explore-button.svg" width="360" alt="Explorar todos os repositorios" />
-  </a>
+  <img src="./assets/creator-core.svg" width="100%" alt="Ciclo criativo animado" />
 </p>
 
 <p align="center">
