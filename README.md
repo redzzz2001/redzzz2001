@@ -1,4 +1,4 @@
-<img src="./assets/redzzz-glitch.svg" width="100%" alt="REDZZZ com glitch sutil"/>
+<img src="./assets/redzzz-glitch.svg?v=2" width="100%" alt="REDZZZ com glitch sutil"/>
 
 <br><br>
 
@@ -15,6 +15,6 @@
 
 <p align="center">
   <a href="https://redzzz.vercel.app/">
-    <img src="./botao.svg" alt="VISITAR PORTFÓLIO" width="222">
+    <img src="./botao.svg?v=2" alt="VISITAR PORTFÓLIO" width="222">
   </a>
 </p>
