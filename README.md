@@ -20,7 +20,3 @@
 
 
 </div>
-
-<p align="center">
-  <img src="./assets/rbot.svg" width="100%" alt="RBOT andando pelo perfil" />
-</p>
