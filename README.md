@@ -17,10 +17,6 @@
 
 <br><br>
 
-<br />
-<p align="left">
-  <img src="https://githubusercontent.com" width="100%" />
-</p>
 
 
 </div>
