@@ -1,12 +1,4 @@
-<pre style="background: transparent; border: none; padding: 0; margin: 0; font-family: monospace;">
-    ██████╗ ███████╗██████╗ ███████╗███████╗███████╗
-    ██╔══██╗██╔════╝██╔══██╗╚══███╔╝╚══███╔╝╚══███╔╝
-    ██████╔╝█████╗  ██║  ██║   ███╔╝   ███╔╝   ███╔╝ 
-    ██╔══██╗██╔══╝  ██║  ██║  ███╔╝   ███╔╝   ███╔╝  
-    ██║  ██║███████╗██████╔╝ ███████╗███████╗███████╗
-    ╚═╝  ╚═╝╚══════╝╚═════╝  ╚══════╝╚══════╝╚══════╝
-</pre>
-
+<img src="./assets/redzzz-glitch.svg" width="100%" alt="REDZZZ com glitch sutil"/>
 
 <br><br>
 
@@ -21,12 +13,8 @@
 <br><br>
 
 
-<a href="https://redzzz.vercel.app/">
-  <img src="./botao.svg" alt="VISITAR PORTFÓLIO" width="222">
-</a>
-
-
-
-
-
-</div>
+<p align="center">
+  <a href="https://redzzz.vercel.app/">
+    <img src="./botao.svg" alt="VISITAR PORTFÓLIO" width="280">
+  </a>
+</p>
