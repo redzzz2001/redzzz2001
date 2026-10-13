@@ -22,5 +22,5 @@
 </div>
 
 <p align="center">
-  <img src="./assets/rz-pet.svg" width="100%" alt="RZ-bot andando pelo perfil" />
+  <img src="./assets/rbot.svg" width="100%" alt="RBOT andando pelo perfil" />
 </p>
