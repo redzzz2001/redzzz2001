@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="300" viewBox="0 0 900 300" role="img" aria-labelledby="title desc">
+  <title id="title">REDZZZ system HUD</title>
+  <desc id="desc">Painel cyberpunk animado apresentando o desenvolvedor Redzzz</desc>
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#0d1117"/><stop offset="1" stop-color="#08090c"/></linearGradient>
+    <linearGradient id="red" x2="1"><stop stop-color="#ff173d"/><stop offset=".5" stop-color="#9f1027"/><stop offset="1" stop-color="#ff173d"/></linearGradient>
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse"><path d="M30 0H0V30" fill="none" stroke="#ff173d" stroke-opacity=".08"/></pattern>
+    <filter id="glow"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <clipPath id="screen"><rect x="18" y="18" width="864" height="264" rx="18"/></clipPath>
+  </defs>
+  <rect width="900" height="300" rx="20" fill="url(#bg)"/>
+  <rect x="1" y="1" width="898" height="298" rx="19" fill="none" stroke="#30363d" stroke-width="2"/>
+  <g clip-path="url(#screen)">
+    <rect x="18" y="18" width="864" height="264" fill="url(#grid)">
+      <animateTransform attributeName="transform" type="translate" from="0 0" to="30 30" dur="4s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="0" y="-80" width="900" height="60" fill="#ff173d" opacity=".05">
+      <animate attributeName="y" values="-80;320" dur="4.5s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+  <path d="M20 70V35Q20 20 35 20H170M730 20h135q15 0 15 15v35M20 230v35q0 15 15 15h135M730 280h135q15 0 15-15v-35" fill="none" stroke="url(#red)" stroke-width="3" filter="url(#glow)"/>
+  <g transform="translate(115 150)">
+    <circle r="82" fill="#ff173d" fill-opacity=".035" stroke="#ff173d" stroke-opacity=".22"/>
+    <circle r="66" fill="none" stroke="#ff173d" stroke-width="2" stroke-dasharray="8 10">
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="13s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="50" fill="#9f1027" stroke="#ff3655" stroke-width="2" filter="url(#glow)"><animate attributeName="r" values="48;52;48" dur="2.6s" repeatCount="indefinite"/></circle>
+    <text y="15" text-anchor="middle" font-family="Arial,sans-serif" font-size="49" font-weight="900" fill="#fff">rz</text>
+    <circle cy="-66" r="4" fill="#ff173d"><animate attributeName="opacity" values="1;.15;1" dur="1.2s" repeatCount="indefinite"/></circle>
+  </g>
+  <g font-family="monospace">
+    <text x="235" y="78" fill="#7d8590" font-size="13">IDENTITY // DEVELOPER PROFILE</text>
+    <text x="235" y="132" fill="#f0f6fc" font-size="42" font-weight="700">REDZZZ</text>
+    <text x="235" y="166" fill="#ff3655" font-size="18">BUILDING DIGITAL WORLDS_</text>
+    <text x="235" y="204" fill="#8b949e" font-size="15">games · web · tools · experiments</text>
+    <g font-size="12">
+      <rect x="235" y="227" width="116" height="28" rx="5" fill="#ff173d" fill-opacity=".09" stroke="#ff173d" stroke-opacity=".55"/>
+      <circle cx="249" cy="241" r="4" fill="#3fb950"><animate attributeName="opacity" values="1;.25;1" dur="1.6s" repeatCount="indefinite"/></circle>
+      <text x="260" y="245" fill="#c9d1d9">SYSTEM ONLINE</text>
+    </g>
+  </g>
+  <g transform="translate(680 66)" font-family="monospace" font-size="11">
+    <text fill="#7d8590">LIVE SIGNAL</text>
+    <g transform="translate(0 25)" fill="url(#red)">
+      <rect width="6" height="24"><animate attributeName="height" values="8;24;12;20;8" dur="1.1s" repeatCount="indefinite"/></rect>
+      <rect x="12" width="6" height="24"><animate attributeName="height" values="20;9;24;13;20" dur=".9s" repeatCount="indefinite"/></rect>
+      <rect x="24" width="6" height="24"><animate attributeName="height" values="12;24;7;18;12" dur="1.3s" repeatCount="indefinite"/></rect>
+      <rect x="36" width="6" height="24"><animate attributeName="height" values="24;10;17;6;24" dur="1s" repeatCount="indefinite"/></rect>
+      <rect x="48" width="6" height="24"><animate attributeName="height" values="7;19;24;11;7" dur="1.2s" repeatCount="indefinite"/></rect>
+    </g>
+    <text y="83" fill="#7d8590">STATUS</text><text x="54" y="83" fill="#3fb950">● ACTIVE</text>
+    <text y="111" fill="#7d8590">LOCATION</text><text x="72" y="111" fill="#c9d1d9">BRAZIL</text>
+    <text y="139" fill="#7d8590">MODE</text><text x="38" y="139" fill="#ff3655">CREATING</text>
+  </g>
+</svg>

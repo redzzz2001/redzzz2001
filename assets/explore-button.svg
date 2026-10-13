@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="62" viewBox="0 0 360 62" role="img" aria-labelledby="t">
+  <title id="t">Explorar todos os repositorios</title>
+  <defs><linearGradient id="r"><stop stop-color="#9f1027"/><stop offset=".5" stop-color="#ff173d"/><stop offset="1" stop-color="#9f1027"/></linearGradient><filter id="g"><feGaussianBlur stdDeviation="3" result="x"/><feMerge><feMergeNode in="x"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+  <rect x="2" y="2" width="356" height="58" rx="10" fill="#0d1117" stroke="url(#r)" stroke-width="2"/>
+  <path d="M12 12h14M12 12v14M348 12h-14M348 12v14M12 50h14M12 50V36M348 50h-14M348 50V36" fill="none" stroke="#ff3655" filter="url(#g)"><animate attributeName="stroke-opacity" values=".25;1;.25" dur="2s" repeatCount="indefinite"/></path>
+  <text x="180" y="37" text-anchor="middle" fill="#f0f6fc" font-family="monospace" font-size="14" font-weight="700">EXPLORE ALL REPOSITORIES →</text>
+</svg>

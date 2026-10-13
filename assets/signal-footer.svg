@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="135" viewBox="0 0 900 135" role="img" aria-labelledby="t">
+  <title id="t">Transmission continues</title>
+  <defs><linearGradient id="r"><stop stop-color="#ff173d" stop-opacity="0"/><stop offset=".5" stop-color="#ff173d"/><stop offset="1" stop-color="#ff173d" stop-opacity="0"/></linearGradient><filter id="g"><feGaussianBlur stdDeviation="3" result="x"/><feMerge><feMergeNode in="x"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+  <rect width="900" height="135" rx="16" fill="#0d1117"/>
+  <path d="M0 58h260l16-17 18 34 20-52 20 70 18-35h196l16-17 18 34 20-52 20 70 18-35h260" fill="none" stroke="url(#r)" stroke-width="2" filter="url(#g)" stroke-dasharray="8 6"><animate attributeName="stroke-dashoffset" from="0" to="-56" dur="2s" repeatCount="indefinite"/></path>
+  <text x="450" y="112" text-anchor="middle" fill="#7d8590" font-family="monospace" font-size="12">TRANSMISSION NEVER ENDS // KEEP BUILDING</text>
+  <circle cx="280" cy="108" r="3" fill="#ff173d"><animate attributeName="opacity" values="1;.1;1" dur="1s" repeatCount="indefinite"/></circle>
+  <circle cx="620" cy="108" r="3" fill="#ff173d"><animate attributeName="opacity" values=".1;1;.1" dur="1s" repeatCount="indefinite"/></circle>
+</svg>

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="94" viewBox="0 0 900 94" role="img" aria-labelledby="t">
+  <title id="t">Projetos selecionados</title>
+  <defs><linearGradient id="r"><stop stop-color="#ff173d"/><stop offset="1" stop-color="#ff173d" stop-opacity="0"/></linearGradient></defs>
+  <rect width="900" height="94" rx="14" fill="#0d1117"/>
+  <path d="M25 70V24h13M862 24h13v46" fill="none" stroke="#ff173d" stroke-width="2"/>
+  <text x="55" y="43" fill="#f0f6fc" font-family="monospace" font-size="23" font-weight="700">SELECTED PROJECTS</text>
+  <text x="55" y="66" fill="#7d8590" font-family="monospace" font-size="12">CLICK A CARD // OPEN REPOSITORY</text>
+  <rect x="512" y="45" width="320" height="2" fill="url(#r)"><animate attributeName="width" values="40;320;40" dur="3s" repeatCount="indefinite"/></rect>
+  <circle cx="850" cy="45" r="5" fill="#ff173d"><animate attributeName="opacity" values="1;.15;1" dur="1s" repeatCount="indefinite"/></circle>
+</svg>
