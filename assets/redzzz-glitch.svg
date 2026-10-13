@@ -1,39 +1,34 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="900" height="150" viewBox="0 0 900 150" role="img" aria-labelledby="title desc">
   <title id="title">REDZZZ</title>
-  <desc id="desc">Logo ASCII REDZZZ com glitch vermelho e azul sutil</desc>
+  <desc id="desc">Texto REDZZZ legivel com falhas digitais animadas</desc>
   <defs>
-    <linearGradient id="scan" x2="1"><stop stop-color="#ff173d" stop-opacity="0"/><stop offset=".5" stop-color="#ff173d" stop-opacity=".16"/><stop offset="1" stop-color="#ff173d" stop-opacity="0"/></linearGradient>
-    <filter id="soft"><feGaussianBlur stdDeviation="1.5"/></filter>
+    <text id="word" x="450" y="104" text-anchor="middle" font-family="Arial Black,Arial,sans-serif" font-size="84" font-weight="900" letter-spacing="8">REDZZZ</text>
+    <clipPath id="top"><rect x="120" y="29" width="660" height="34"/></clipPath>
+    <clipPath id="middle"><rect x="120" y="63" width="660" height="27"/></clipPath>
+    <clipPath id="bottom"><rect x="120" y="90" width="660" height="28"/></clipPath>
+    <linearGradient id="scan" x2="1"><stop stop-color="#ff173d" stop-opacity="0"/><stop offset=".5" stop-color="#ff173d" stop-opacity=".22"/><stop offset="1" stop-color="#ff173d" stop-opacity="0"/></linearGradient>
   </defs>
 
-  <g font-family="DejaVu Sans Mono,Consolas,monospace" font-size="17" font-weight="700" xml:space="preserve">
-    <defs>
-    <g id="ascii">
-      <text x="112" y="30">██████╗ ███████╗██████╗ ███████╗███████╗███████╗</text>
-      <text x="112" y="49">██╔══██╗██╔════╝██╔══██╗╚══███╔╝╚══███╔╝╚══███╔╝</text>
-      <text x="112" y="68">██████╔╝█████╗  ██║  ██║   ███╔╝   ███╔╝   ███╔╝</text>
-      <text x="112" y="87">██╔══██╗██╔══╝  ██║  ██║  ███╔╝   ███╔╝   ███╔╝</text>
-      <text x="112" y="106">██║  ██║███████╗██████╔╝ ███████╗███████╗███████╗</text>
-      <text x="112" y="125">╚═╝  ╚═╝╚══════╝╚═════╝  ╚══════╝╚══════╝╚══════╝</text>
-    </g>
-    </defs>
+  <use href="#word" fill="#f0f6fc"/>
 
-    <g fill="#f0f6fc"><use href="#ascii"/></g>
-
-    <g fill="#ff173d" opacity="0" transform="translate(3 0)" filter="url(#soft)">
-      <use href="#ascii"/>
-      <animate attributeName="opacity" values="0;0;.32;0;0;.18;0;0" keyTimes="0;.7;.715;.73;.87;.885;.9;1" dur="6s" repeatCount="indefinite"/>
-    </g>
-    <g fill="#58a6ff" opacity="0" transform="translate(-3 0)" filter="url(#soft)">
-      <use href="#ascii"/>
-      <animate attributeName="opacity" values="0;0;.24;0;0;.14;0;0" keyTimes="0;.7;.715;.73;.87;.885;.9;1" dur="6s" repeatCount="indefinite"/>
-    </g>
+  <g opacity="0">
+    <use href="#word" fill="#ff173d" transform="translate(7 0)"/>
+    <animate attributeName="opacity" values="0;0;.62;0;.42;0;0" keyTimes="0;.63;.65;.68;.7;.73;1" dur="4.2s" repeatCount="indefinite"/>
+  </g>
+  <g opacity="0">
+    <use href="#word" fill="#58a6ff" transform="translate(-7 0)"/>
+    <animate attributeName="opacity" values="0;0;.5;0;.34;0;0" keyTimes="0;.63;.65;.68;.7;.73;1" dur="4.2s" repeatCount="indefinite"/>
   </g>
 
-  <rect x="70" y="-8" width="760" height="7" fill="url(#scan)">
-    <animate attributeName="y" values="-8;150" dur="5s" repeatCount="indefinite"/>
+  <g fill="#fff" opacity="0">
+    <g clip-path="url(#top)"><use href="#word"/><animateTransform attributeName="transform" type="translate" values="0 0;0 0;18 0;-9 0;0 0;0 0" keyTimes="0;.63;.65;.68;.73;1" dur="4.2s" repeatCount="indefinite"/></g>
+    <g clip-path="url(#middle)"><use href="#word"/><animateTransform attributeName="transform" type="translate" values="0 0;0 0;-15 0;11 0;0 0;0 0" keyTimes="0;.63;.65;.68;.73;1" dur="4.2s" repeatCount="indefinite"/></g>
+    <g clip-path="url(#bottom)"><use href="#word"/><animateTransform attributeName="transform" type="translate" values="0 0;0 0;9 0;-14 0;0 0;0 0" keyTimes="0;.63;.65;.68;.73;1" dur="4.2s" repeatCount="indefinite"/></g>
+    <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;.63;.65;.7;.73;1" dur="4.2s" repeatCount="indefinite"/>
+  </g>
+
+  <rect x="150" y="-6" width="600" height="5" fill="url(#scan)">
+    <animate attributeName="y" values="-6;145" dur="4.2s" repeatCount="indefinite"/>
   </rect>
-  <path d="M94 137H806" stroke="#ff173d" stroke-opacity=".18" stroke-width="1" stroke-dasharray="2 12">
-    <animate attributeName="stroke-dashoffset" from="0" to="-56" dur="3s" repeatCount="indefinite"/>
-  </path>
+  <path d="M210 126H690" stroke="#ff173d" stroke-opacity=".28" stroke-width="2"><animate attributeName="stroke-dasharray" values="1 479;210 269;1 479" dur="4.2s" repeatCount="indefinite"/></path>
 </svg>

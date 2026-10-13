@@ -6,7 +6,9 @@
 
 <br><br>
 
-<img src="./assets/gorilla-rounded.svg" width="340" alt="Gorila programador"/>
+<p align="center">
+  <img src="./assets/gorilla-rounded.svg" width="340" alt="Gorila programador"/>
+</p>
 
 <br><br>
 
